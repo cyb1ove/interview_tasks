@@ -4,20 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel-jest": "^27.4.2",
     "eslint": "^8.3.0",
     "eslint-plugin-jest": "^25.3.0",
     "eslint-plugin-node": "^11.1.0",
-    "jest": "^27.4.2",
-    "regenerator-runtime": "^0.13.9"
-  },
-  "dependencies": {
-    "jsdom": "^18.1.1"
+    "jest": "^27.4.1"
   }
 }
