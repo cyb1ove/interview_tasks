@@ -4,15 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint:js": "eslint ./src",
-    "lint": "concurrently \"npm run lint:js\""
+    "test": "npx jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^6.4.0",
-    "eslint": "^8.3.0"
+    "eslint": "^8.3.0",
+    "eslint-plugin-jest": "^25.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "jest": "^27.4.1"
   }
 }
